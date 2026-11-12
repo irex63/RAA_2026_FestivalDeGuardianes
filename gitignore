@@ -1,0 +1,74 @@
+# ============================================================
+# .gitignore para proyecto Unity (carpeta del proyecto dentro del repo)
+# Colocar en la raíz del repo, junto al README.md.
+# Los patrones NO llevan "/" inicial a propósito, para que funcionen
+# aunque el proyecto de Unity esté en una subcarpeta.
+# ============================================================
+
+# --- Carpetas generadas por Unity (se regeneran solas) ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# --- Carpetas de IDE ---
+.vs/
+.vscode/
+.idea/
+.gradle/
+
+# --- Ficheros de proyecto autogenerados (Unity los recrea) ---
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# --- Ficheros de Visual Studio / Rider ---
+*.DotSettings.user
+.vsconfig
+
+# --- Caches de assets y perfiles ---
+[Aa]ssets/AssetStoreTools*
+[Aa]ssets/Plugins/Editor/JetBrains*
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# --- Capturas de memoria / profiler ---
+[Aa]ssets/[Ss]creenshots*
+*.[Mm]emoryCaptures*
+sysinfo.txt
+
+# --- Builds ---
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+
+# --- Unity Package Manager / Addressables ---
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
