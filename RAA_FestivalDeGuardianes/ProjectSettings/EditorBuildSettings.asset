@@ -8,5 +8,29 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuVR.unity
     guid: c72266273b87f47498eea4d48bb02c61
+  - enabled: 1
+    path: Assets/Scenes/EasterText.unity
+    guid: 81db9b426c95d394098ea537125cc483
+  - enabled: 1
+    path: Assets/Scenes/EasterAudio.unity
+    guid: 16b5e2297269e344fa0bb31568026ba4
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: dd73e1fa40ca38b48abc835b18d0433f
+  - enabled: 1
+    path: Assets/Scenes/BaseLobbyCinematic.unity
+    guid: 3f0f8f768dc2c25489165b33681502c6
+  - enabled: 1
+    path: Assets/Scenes/LobbyAudio.unity
+    guid: 606a7ba935389a9478df7f218ee91410
+  - enabled: 1
+    path: Assets/Scenes/LobbyText.unity
+    guid: a2c7ea85f4ff1fb4ab6d00a9b73932a1
+  - enabled: 1
+    path: Assets/Scenes/HalloweenAudio.unity
+    guid: 5b97166ae91fe3342ab31a631896e511
+  - enabled: 1
+    path: Assets/Scenes/HalloweenText.unity
+    guid: fcf654e0c0471244fae7420a712bf8e5
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c8face35e7cb33446b76821934b7928c, type: 2}

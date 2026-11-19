@@ -47,7 +47,11 @@ public class GazeInput : MonoBehaviour
 
     public void OnPointerClick()
     {
-        SceneManager.LoadScene(nextScene);
+        PlayerPrefs.DeleteKey(PlayerPrefsNames.hallowen);
+        PlayerPrefs.DeleteKey(PlayerPrefsNames.easter);
+        PlayerPrefs.Save();
+
+        SceneManager.LoadScene(nextScene); // el nombre real de tu escena
     }
 
     private void SaveDialoguePreference(int mode)

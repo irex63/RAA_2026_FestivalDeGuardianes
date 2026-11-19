@@ -25,7 +25,7 @@ public class LobbyMovement : MonoBehaviour
 
     public string hallowenScene = "Halloween";
     public string easterScene = "Easter";
-    public string endScene = "End";
+    public string endScene = "EndScene";
 
     public AudioSource source;
     public AudioClip clip;
